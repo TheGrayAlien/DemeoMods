@@ -89,6 +89,7 @@
             HR.Rulebook.Register(typeof(FreeBuffOnKillRule));
             HR.Rulebook.Register(typeof(FreeHealOnCritRule));
             HR.Rulebook.Register(typeof(FreeHealOnHitRule));
+            HR.Rulebook.Register(typeof(FreeMaxHealthOnKillRule));
             HR.Rulebook.Register(typeof(FreeRandomBuffOnKillRule));
             HR.Rulebook.Register(typeof(FreeReplenishablesOnCritRule));
             HR.Rulebook.Register(typeof(GoldPickedUpMultipliedRule));
@@ -153,6 +154,7 @@
             HR.Rulebook.Register(DemeoRevolutions_Progressive.Create());
             HR.Rulebook.Register(DemeoRevolutions_Small_Progressive.Create());
             HR.Rulebook.Register(DemeoRevolutions_Legendary_Progressive.Create());
+            HR.Rulebook.Register(SURVIVE.Create());
             HR.Rulebook.Register(FriendlyCompetition.Create());
             HR.Rulebook.Register(DarkestDankestDemeoRuleset.Create());
             HR.Rulebook.Register(Heroes_of_the_Voice_Machine.Create());
